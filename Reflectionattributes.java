@@ -12,6 +12,7 @@ public class Reflectionattributes {
             //for every name, add them to arraylist
             methodList.add(method.getName());
         }
+        //sort student info in ascending order and use for each loop to print out
         Collections.sort(methodList);
         for(String name: methodList){
             System.out.println(name);
